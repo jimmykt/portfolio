@@ -1,0 +1,20 @@
+@use "../styles/partials/variables" as *;
+
+.Hero {
+  background-color: $color-primary;
+
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  &__intro {
+    font-size: 4rem;
+  }
+  &__message {
+    font-size: 3rem;
+    position: absolute;
+    margin-top: 7rem;
+    color: $color-secondary;
+  }
+}

@@ -1,0 +1,14 @@
+@use "./styles/typography.scss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+}
