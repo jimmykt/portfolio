@@ -23,8 +23,14 @@
     width: 25rem;
     margin-top: 1rem;
   }
+
   &__icon {
     width: 4rem;
     margin-top: 1rem;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-evenly;
   }
 }

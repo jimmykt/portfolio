@@ -11,12 +11,14 @@ function Project(props) {
       <p className="Project__info">{props.info}</p>
       <p className="Project__stacks">Stacks Used: {props.stacks}</p>
 
-      <a href={props.github}>
-        <img className="Project__icon" src={GithubIcon} alt="Githun" />
-      </a>
-      <a href={props.host}>
-        <img className="Project__icon" src={VisitIcon} alt="Githun" />
-      </a>
+      <div className="Project__links">
+        <a href={props.github}>
+          <img className="Project__icon" src={GithubIcon} alt="Githun" />
+        </a>
+        <a href={props.host}>
+          <img className="Project__icon" src={VisitIcon} alt="Githun" />
+        </a>
+      </div>
     </div>
   );
 }

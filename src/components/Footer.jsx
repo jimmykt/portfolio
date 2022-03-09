@@ -12,7 +12,7 @@ function Footer() {
         </a>
       </div>
 
-      <div className="Footer__containerOne">
+      <div className="Footer__containerTwo">
         <a href="https://github.com/jimmykt">
           <img src={GithubIcon} alt="github" />
         </a>
