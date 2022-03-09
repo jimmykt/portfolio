@@ -1,0 +1,28 @@
+@use "../styles/partials/variables" as *;
+
+.Footer {
+  background-color: $color-primary;
+  width: auto;
+  color: white;
+  padding: 2rem $desktop-side-padding;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  &__email {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+  }
+
+  &__containerOne {
+    margin-right: 2rem;
+  }
+  &__containerTwo {
+    margin-left: 2rem;
+  }
+}

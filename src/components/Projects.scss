@@ -1,4 +1,7 @@
+@use "../styles/partials/variables" as *;
+
 .Projects {
   margin-top: 2rem;
-  padding: 0rem 2rem;
+  margin-bottom: 2rem;
+  padding: 0rem $desktop-side-padding;
 }
