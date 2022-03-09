@@ -2,13 +2,16 @@
 
 .Header {
   display: flex;
-  background-color: $color-primary;
-  font-size: 1.5rem;
-  padding-left: $desktop-side-padding;
-  padding-right: $desktop-side-padding;
   justify-content: space-between;
   color: white;
+  background-color: $color-primary;
+  padding-left: $desktop-side-padding;
+  padding-right: $desktop-side-padding;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  opacity: 0.8;
+
   &__nav {
     display: flex;
     list-style-type: none;
