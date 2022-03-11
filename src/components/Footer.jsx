@@ -14,11 +14,11 @@ function Footer() {
 
       <div className="Footer__containerTwo">
         <a href="https://github.com/jimmykt">
-          <img src={GithubIcon} alt="github" />
+          <img className="Footer__icons" src={GithubIcon} alt="github" />
         </a>
 
         <a href="https://www.linkedin.com/in/jimmykt8/">
-          <img src={LinkedinIcon} alt="Linkedin" />
+          <img className="Footer__icons" src={LinkedinIcon} alt="Linkedin" />
         </a>
       </div>
     </footer>
