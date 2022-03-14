@@ -1,0 +1,20 @@
+@use "../styles/variables" as *;
+
+@mixin tablet {
+  @media screen and (min-width: $breakpoint-tablet) {
+    padding-right: 1rem;
+    padding-left: 2rem;
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+
+@mixin page-side-padding-mobile {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
