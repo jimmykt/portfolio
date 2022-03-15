@@ -9,11 +9,15 @@
   justify-content: space-between;
   background-color: $color-primary;
   color: #fff;
-  padding: 1rem;
   width: 100%;
+  @include page-side-padding-mobile;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 
   @include tablet {
     @include page-side-padding-tablet;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   &__logo {
@@ -52,11 +56,13 @@
 .show-menu {
   display: flex;
   position: absolute;
-  top: 4rem;
-  right: 1rem;
+  top: 3rem;
+  right: 0rem;
+  padding: 1rem;
   flex-direction: column;
   list-style-type: none;
-
+  background-color: $color-primary;
+  border-bottom-left-radius: 0.5rem;
   @include tablet {
     position: relative;
     top: 0rem;

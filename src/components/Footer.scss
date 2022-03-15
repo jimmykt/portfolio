@@ -1,0 +1,39 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
+.Footer {
+  background-color: $color-primary;
+  display: flex;
+  color: white;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  @include tablet {
+    @include page-side-padding-tablet;
+    justify-content: space-evenly;
+  }
+
+  &__email {
+    text-decoration: inherit;
+    color: inherit;
+    @include tablet {
+      font-size: 2rem;
+    }
+  }
+
+  &__containerTwo {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    @include tablet {
+      width: fit-content;
+    }
+  }
+
+  &__icons {
+    width: 4rem;
+    @include tablet {
+      margin-left: 1rem;
+    }
+  }
+}

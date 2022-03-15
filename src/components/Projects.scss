@@ -1,3 +1,15 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
 .Projects {
-  padding-top: 1.5rem;
+  @include page-side-padding-mobile;
+  margin-top: 1rem;
+
+  @include tablet {
+    @include page-side-padding-tablet;
+  }
+
+  &__title {
+    text-align: center;
+  }
 }
