@@ -1,0 +1,9 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
+.Hero {
+  background-color: $color-primary;
+  height: 100vh;
+
+  padding: 10rem;
+}
