@@ -2,8 +2,6 @@
 
 @mixin tablet {
   @media screen and (min-width: $breakpoint-tablet) {
-    padding-right: 1rem;
-    padding-left: 2rem;
     @content;
   }
 }
@@ -17,4 +15,14 @@
 @mixin page-side-padding-mobile {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+@mixin page-side-padding-tablet {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@mixin page-side-padding-desktop {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
