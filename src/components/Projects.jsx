@@ -2,6 +2,7 @@ import "./Projects.scss";
 import Project from "../components/Project";
 import JourneyImage from "../assets/images/app-Journey.png";
 import DogPoolImage from "../assets/images/dogpool.png";
+import TrackImage from "../assets/images/track.png";
 
 import Switch from "../components/Switch";
 function Projects() {
@@ -9,6 +10,14 @@ function Projects() {
     <div className="Projects" id="projects">
       {/* <Switch /> */}
       <div className="Projects__container">
+        <Project
+          image={TrackImage}
+          name="Track"
+          info="An expense tracking app, secure login with webtokens, and secure signups with bcryptjs"
+          stacks="React.js, axios, redux, react-router-dom, Node, MongoDB, Mongoose, sass, redux,  Express, bcryptjs, jsonwebtoken "
+          github="https://github.com/jimmykt/track"
+          host="https://track-app-jt.netlify.app/"
+        />
         <Project
           image={JourneyImage}
           name="Journey"

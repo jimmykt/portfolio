@@ -9,7 +9,9 @@ function Project(props) {
       <h2 className="Project__name">{props.name}</h2>
       <div className="Project__container">
         <div className="Project__image-container">
-          <img className="Project__image" src={props.image} alt="image" />
+          <a href={props.host} target="_blank">
+            <img className="Project__image" src={props.image} alt="image" />
+          </a>
         </div>
 
         <div className="Project__info-container">
