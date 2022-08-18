@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   background-color: #2c3333;
+  padding-top: 10rem;
   @include tablet {
     @include page-side-padding-tablet;
   }

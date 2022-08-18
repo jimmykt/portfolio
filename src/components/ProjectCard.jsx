@@ -15,12 +15,21 @@ function ProjectCard(props) {
     <div className="card" onClick={clickFlip}>
       <div className={"card__inner " + (flip ? "is-flipped" : "")}>
         <div className="card__face card__face--front">
-          <h2>front</h2>
+          <img className="card__image" src={props.image} alt="project" />
         </div>
         <div className="card__face card__face--back">
           <div className="card__content">
-            <img src={GithubIcon} alt="git" />
-            <h2>back</h2>
+            <p className="Project__info">{props.info}</p>
+            <p className="Project__stacks">Stacks Used: {props.stacks}</p>
+            <p className="Project__moreInfo">{props.moreInfo}</p>
+            <div className="Project__links">
+              <a href={props.github} target="_blank" rel="noreferrer">
+                <img className="Project__icon" src={GithubIcon} alt="Githun" />
+              </a>
+              <a href={props.host} target="_blank" rel="noreferrer">
+                <img className="Project__icon" src={VisitIcon} alt="Githun" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
