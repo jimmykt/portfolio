@@ -3,7 +3,7 @@
 
 .Hero {
   @include page-side-padding-mobile;
-  background-color: $color-primary;
+  background-color: $color1;
   height: 100vh;
   color: white;
   display: flex;
@@ -21,6 +21,6 @@
   }
 
   &__message {
-    color: $color-secondary;
+    color: $color2;
   }
 }

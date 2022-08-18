@@ -3,9 +3,9 @@
 
 .Projects {
   @include page-side-padding-mobile;
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
+  background-color: #2c3333;
   @include tablet {
     @include page-side-padding-tablet;
   }

@@ -13,7 +13,7 @@ function ProjectCard(props) {
 
   return (
     <div className="card" onClick={clickFlip}>
-      <div className={"card__inner " + (flip ? "is-flipped" : "no")}>
+      <div className={"card__inner " + (flip ? "is-flipped" : "")}>
         <div className="card__face card__face--front">
           <h2>front</h2>
         </div>
