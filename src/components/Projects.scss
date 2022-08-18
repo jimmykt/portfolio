@@ -4,7 +4,8 @@
 .Projects {
   @include page-side-padding-mobile;
   margin-top: 1rem;
-
+  display: flex;
+  justify-content: center;
   @include tablet {
     @include page-side-padding-tablet;
   }

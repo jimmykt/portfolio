@@ -14,7 +14,7 @@ function Header() {
   };
 
   return (
-    <header class="header">
+    <header className="header">
       <h1 className="header__logo">Jimmy Tam</h1>
 
       <Hamburger onClick={toggle} />
