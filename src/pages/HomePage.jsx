@@ -1,3 +1,5 @@
+import "./HomePage.scss";
+
 import Hero from "../components/Hero";
 import Porjects from "../components/Projects";
 function HomePage() {

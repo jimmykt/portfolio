@@ -17,7 +17,7 @@ function Footer() {
           <img className="Footer__icons" src={GithubIcon} alt="github" />
         </a>
 
-        <a href="https://www.linkedin.com/in/jimmykt8/">
+        <a href="https://www.linkedin.com/in/jimmykt82/">
           <img className="Footer__icons" src={LinkedinIcon} alt="Linkedin" />
         </a>
       </div>

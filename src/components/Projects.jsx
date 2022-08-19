@@ -1,11 +1,9 @@
 import "./Projects.scss";
-import Project from "../components/Project";
 import ProjectCard from "../components/ProjectCard";
 import JourneyImage from "../assets/images/app-Journey.png";
 import DogPoolImage from "../assets/images/dogpool.png";
 import TrackImage from "../assets/images/track.png";
 
-// import Switch from "../components/Switch";
 function Projects() {
   return (
     <div className="Projects" id="projects">
@@ -14,11 +12,12 @@ function Projects() {
         <ProjectCard
           image={TrackImage}
           name="Track"
-          info="An expense tracking app, secure login with webtokens, and secure signups with bcryptjs '\n' hi"
+          info="An expense tracking app, secure login with webtokens, and secure signups with bcryptjs"
           stacks="React.js, axios, redux, react-router-dom, Node, MongoDB, Mongoose, sass, redux,  Express, bcryptjs, jsonwebtoken "
           moreInfo="signup, or use a test account:  email:john Password:smith"
           github="https://github.com/jimmykt/track"
           host="https://track-app-jt.netlify.app/"
+          verticalImage={false}
         />
         <ProjectCard
           image={JourneyImage}
@@ -27,6 +26,7 @@ function Projects() {
           stacks="React.js, axios, redux, react-file-base64, Node, MongoDB, Express"
           github="https://github.com/jimmykt/Journey"
           host="https://journey-mern.netlify.app/"
+          verticalImage={false}
         />
         <ProjectCard
           image={DogPoolImage}
@@ -35,6 +35,7 @@ function Projects() {
           stacks="React.js, axios, redux, react-file-base64, Node, MySQL, Express, Google API"
           github="https://github.com/jimmykt/dog-pool"
           host="https://journey-mern.netlify.app/"
+          verticalImage={true}
         />
       </div>
     </div>
