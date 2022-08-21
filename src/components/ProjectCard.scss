@@ -39,8 +39,9 @@
       flex-direction: column;
     }
     &--back {
-      background-image: linear-gradient(to bottom right, $color4, $color3);
+      background-image: linear-gradient(to bottom right, $color1, $color1);
       transform: rotateY(180deg);
+      color: white;
     }
   }
 

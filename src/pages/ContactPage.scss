@@ -3,28 +3,46 @@
 
 .ContactPage {
   @include page-side-padding-mobile;
-  height: 90vh;
+  height: 100vh;
   background-color: $color1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 5rem;
+  color: white;
+  // &__form {
+  //   padding: 5rem;
+  //   display: flex;
+  //   flex-direction: column;
+  //   width: 60%;
+  // }
 
-  &__form {
-    padding: 5rem;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+  // &__messageBody {
+  //   padding: 1rem;
+  //   height: 12rem;
+  // }
+
+  // &__sendButton {
+  //   width: 5rem;
+  //   background-color: rgb(105, 189, 235);
+  //   border: none;
+  //   opacity: 0.6;
+  //   &:hover {
+  //     opacity: 1;
+  //   }
+  // }
+
+  &__email {
+    text-decoration: inherit;
+    color: inherit;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
-
-  &__messageBody {
-    padding: 1rem;
-    height: 12rem;
-  }
-
-  &__sendButton {
-    width: 5rem;
-    background-color: rgb(105, 189, 235);
-    border: none;
-    opacity: 0.6;
-    &:hover {
-      opacity: 1;
+  &__icons {
+    width: 4rem;
+    @include tablet {
+      margin-left: 1rem;
     }
   }
 }
