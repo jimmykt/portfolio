@@ -20,7 +20,15 @@
       font-size: 2rem;
     }
   }
-
+  &__copy {
+    max-width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    &:active {
+      filter: opacity(0.5) drop-shadow(0 0 0 rgb(133, 177, 0));
+    }
+  }
   &__containerTwo {
     display: flex;
     width: 40%;

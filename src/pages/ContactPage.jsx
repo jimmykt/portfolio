@@ -3,14 +3,9 @@ import GithubIcon from "../assets/Icons/github.png";
 import LinkedinIcon from "../assets/Icons/linkedin.png";
 import CopyIcon from "../assets/Icons/copy.png";
 
-import React, { useState } from "react";
-
 function ContactPage() {
-  const [copyClick, setCopyClick] = useState(false);
-
   const copyText = () => {
     navigator.clipboard.writeText("jimmykkst@gmail.com");
-    setCopyClick(!copyClick);
   };
 
   return (

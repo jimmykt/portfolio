@@ -1,8 +1,12 @@
 import "./Footer.scss";
 import GithubIcon from "../assets/Icons/github.png";
 import LinkedinIcon from "../assets/Icons/linkedin.png";
+import CopyIcon from "../assets/Icons/copy.png";
 
 function Footer() {
+  const copyText = () => {
+    navigator.clipboard.writeText("jimmykkst@gmail.com");
+  };
   return (
     <footer className="Footer">
       <div className="Footer__containerOne">
@@ -10,6 +14,12 @@ function Footer() {
         <a className="Footer__email" href="mailto:jimmykkst@gmail.com">
           jimmykkst@gmail.com
         </a>
+        <img
+          className="Footer__copy"
+          src={CopyIcon}
+          onClick={copyText}
+          alt="copy icon"
+        />
       </div>
 
       <div className="Footer__containerTwo">
