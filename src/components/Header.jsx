@@ -24,9 +24,7 @@ function Header() {
       <ul className={"header__list " + isClick}>
         <li className="header__list-item">
           <NavLink to="/" className="header__link">
-            <a className="header__link" href="#">
-              Home
-            </a>
+            Home
           </NavLink>
         </li>
         <li className="header__list-item">

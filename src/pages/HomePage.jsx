@@ -1,6 +1,6 @@
 import "./HomePage.scss";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import Hero from "../components/Hero";
 import Porjects from "../components/Projects";
