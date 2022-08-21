@@ -6,11 +6,26 @@
 }
 
 .card {
-  width: 700px;
-  height: 70vh;
+  width: 28rem;
+  height: 60vh;
   perspective: 1000px;
   padding: 2rem 0rem;
   margin-top: 3rem;
+
+  @include tablet {
+    width: 600px;
+    height: 60vh;
+    perspective: 1000px;
+    padding: 2rem 0rem;
+    margin-top: 3rem;
+  }
+  @include desktop {
+    width: 700px;
+    height: 70vh;
+    perspective: 1000px;
+    padding: 2rem 0rem;
+    margin-top: 3rem;
+  }
 
   &__inner {
     width: 100%;
