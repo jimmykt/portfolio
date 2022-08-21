@@ -1,4 +1,6 @@
 import "./Header.scss";
+
+import { Link, NavLink } from "react-router-dom";
 import React, { useState } from "react";
 import Hamburger from "./Hamburger";
 
@@ -21,19 +23,21 @@ function Header() {
 
       <ul className={"header__list " + isClick}>
         <li className="header__list-item">
-          <a className="header__link" href="#">
-            Home
-          </a>
+          <NavLink to="/" className="header__link">
+            <a className="header__link" href="#">
+              Home
+            </a>
+          </NavLink>
         </li>
         <li className="header__list-item">
-          <a className="header__link" href="#projects">
+          <a className="header__link" href="/#projects">
             Projects
           </a>
         </li>
         <li className="header__list-item">
-          <a className="header__link" href="#">
+          <NavLink to="/contact" className="header__link">
             Contact
-          </a>
+          </NavLink>
         </li>
       </ul>
     </header>

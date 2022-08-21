@@ -1,0 +1,39 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
+.ContactPage {
+  @include page-side-padding-mobile;
+  height: 90vh;
+  background-color: $color1;
+
+  &__form {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  &__messageBody {
+    padding: 1rem;
+    height: 12rem;
+  }
+
+  &__sendButton {
+    width: 5rem;
+    background-color: rgb(105, 189, 235);
+    border: none;
+    opacity: 0.6;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.input {
+  background-color: $color2;
+  color: white;
+  padding-left: 0.7rem;
+  padding-right: 1rem;
+  margin-top: 0.5rem;
+  min-height: 2rem;
+}
