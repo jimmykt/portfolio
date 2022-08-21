@@ -7,7 +7,6 @@ import TrackImage from "../assets/images/track.png";
 function Projects() {
   return (
     <div className="Projects" id="projects">
-      {/* <Switch /> */}
       <div className="Projects__container">
         <ProjectCard
           image={TrackImage}

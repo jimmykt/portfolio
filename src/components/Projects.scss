@@ -12,4 +12,16 @@
   @include tablet {
     @include page-side-padding-tablet;
   }
+
+  &__upArrowContainer {
+    position: absolute;
+  }
+  &__upArrow {
+    position: fixed;
+    width: 2rem;
+    top: 4rem;
+    right: 0;
+    margin-top: 2rem;
+    margin-right: 2rem;
+  }
 }
