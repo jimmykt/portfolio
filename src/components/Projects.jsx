@@ -2,7 +2,7 @@ import "./Projects.scss";
 import ProjectCard from "../components/ProjectCard";
 import JourneyImage from "../assets/images/app-Journey.png";
 import DogPoolImage from "../assets/images/dogpool.png";
-import TrackImage from "../assets/images/track.png";
+import TrackImage from "../assets/images/track__2.png";
 
 function Projects() {
   return (

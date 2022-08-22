@@ -1,0 +1,29 @@
+.copy {
+  display: flex;
+
+  &__text {
+    display: none;
+  }
+
+  &__img {
+    max-width: 1.2rem;
+    height: 1.2rem;
+    margin-left: 0.3rem;
+    cursor: pointer;
+
+    &:active {
+      filter: opacity(0.5) drop-shadow(0 0 0 rgb(133, 177, 0));
+    }
+  }
+}
+// .copy__img:active .copy__text {
+//   display: block;
+//   background-color: red;
+// }
+
+.copy__img {
+  &:active p {
+    display: block;
+    background-color: red;
+  }
+}

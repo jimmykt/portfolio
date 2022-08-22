@@ -64,7 +64,9 @@
     width: 100%;
     &--vertical-imgae {
       height: 100%;
-      width: fit-content;
+      @include tablet {
+        width: fit-content;
+      }
     }
   }
 

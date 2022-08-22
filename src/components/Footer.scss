@@ -8,9 +8,15 @@
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
+
   @include tablet {
     @include page-side-padding-tablet;
     justify-content: space-evenly;
+  }
+
+  &__email-container {
+    display: flex;
+    align-items: center;
   }
 
   &__email {
@@ -20,15 +26,21 @@
       font-size: 2rem;
     }
   }
-  &__copy {
-    max-width: 1.2rem;
-    height: 1.2rem;
-    margin-left: 0.5rem;
-    cursor: pointer;
-    &:active {
-      filter: opacity(0.5) drop-shadow(0 0 0 rgb(133, 177, 0));
-    }
+
+  &__copied {
+    display: none;
   }
+
+  // &__copy {
+  //   max-width: 1.2rem;
+  //   height: 1.2rem;
+  //   margin-left: 0.5rem;
+  //   cursor: pointer;
+  //   &:active {
+  //     filter: opacity(0.5) drop-shadow(0 0 0 rgb(133, 177, 0));
+  //   }
+  // }
+
   &__containerTwo {
     display: flex;
     width: 40%;
@@ -44,4 +56,12 @@
       margin-left: 1rem;
     }
   }
+}
+
+.copied {
+  display: none;
+}
+
+.Footer__copy:hover .copied {
+  display: block;
 }

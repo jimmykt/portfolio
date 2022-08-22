@@ -9,6 +9,7 @@ import UpArrow from "../assets/Icons/up-arrow-2.png";
 
 function HomePage() {
   const [showScroll, setShowScroll] = useState(false);
+
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
