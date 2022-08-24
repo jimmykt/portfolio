@@ -4,10 +4,6 @@ import LinkedinIcon from "../assets/Icons/linkedin.png";
 import Copied from "../components/Copied";
 
 function ContactPage() {
-  const copyText = () => {
-    navigator.clipboard.writeText("jimmykkst@gmail.com");
-  };
-
   return (
     <div className="ContactPage">
       <div className="ContactPage__containerOne">

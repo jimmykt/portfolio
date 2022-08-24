@@ -1,10 +1,14 @@
 import "./Projects.scss";
+import React, { useState } from "react";
+
 import ProjectCard from "../components/ProjectCard";
 import JourneyImage from "../assets/images/app-Journey.png";
 import DogPoolImage from "../assets/images/dogpool.png";
 import TrackImage from "../assets/images/track__2.png";
 
 function Projects() {
+  const [project, setProject] = useState(1);
+
   return (
     <div className="Projects" id="projects">
       <div className="Projects__container">
