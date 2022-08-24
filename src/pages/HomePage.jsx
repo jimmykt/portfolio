@@ -35,7 +35,7 @@ function HomePage() {
       </div>
       <Hero />
       <Porjects />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

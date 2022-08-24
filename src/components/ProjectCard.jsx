@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 
 function ProjectCard(props) {
   const [flip, setFlip] = useState(false);
+  console.log(props);
 
   const clickFlip = () => {
     setFlip(!flip);
