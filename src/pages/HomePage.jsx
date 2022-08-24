@@ -6,7 +6,7 @@ import Hero from "../components/Hero";
 import Porjects from "../components/Projects";
 import Footer from "../components/Footer";
 import UpArrow from "../assets/Icons/up-arrow-2.png";
-
+import AboutMe from "./ContactPage";
 function HomePage() {
   const [showScroll, setShowScroll] = useState(false);
 
@@ -35,6 +35,7 @@ function HomePage() {
       </div>
       <Hero />
       <Porjects />
+      <AboutMe />
       {/* <Footer /> */}
     </main>
   );
