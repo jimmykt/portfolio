@@ -1,7 +1,7 @@
 import "./ContactPage.scss";
 import GithubIcon from "../assets/Icons/github.png";
 import LinkedinIcon from "../assets/Icons/linkedin.png";
-import CopyIcon from "../assets/Icons/copy.png";
+import Copied from "../components/Copied";
 
 function ContactPage() {
   const copyText = () => {
@@ -13,15 +13,14 @@ function ContactPage() {
       <div className="ContactPage__containerOne">
         <h1>Got a problem to solve?</h1>
         <p className="ContactPage__name">Jimmy Tam</p>
-        <a className="ContactPage__email" href="mailto:jimmykkst@gmail.com">
-          jimmykkst@gmail.com
-        </a>
-        <img
-          className="ContactPage__copy"
-          src={CopyIcon}
-          onClick={copyText}
-          alt="copy icon"
-        />
+        <div className="ContactPage__email-container">
+          <a className="ContactPage__email" href="mailto:jimmykkst@gmail.com">
+            jimmykkst@gmail.com
+          </a>
+          <Copied />
+        </div>
+
+        <div className="ContactPage__Copied-container"></div>
       </div>
 
       <div className="ContactPage__containerTwo">

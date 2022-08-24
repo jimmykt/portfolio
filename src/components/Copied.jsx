@@ -1,5 +1,4 @@
 import "./Copied.scss";
-import React, { useState } from "react";
 
 import CopyIcon from "../assets/Icons/copy.png";
 

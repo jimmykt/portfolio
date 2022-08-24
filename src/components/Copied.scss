@@ -1,8 +1,12 @@
 .copy {
   display: flex;
+  position: relative;
+  max-width: 2rem;
 
   &__text {
     display: none;
+    border-radius: 1rem;
+    padding: 0.1rem 0.25rem;
   }
 
   &__img {
@@ -16,14 +20,10 @@
     }
   }
 }
-// .copy__img:active .copy__text {
-//   display: block;
-//   background-color: red;
-// }
 
-.copy__img {
-  &:active p {
-    display: block;
-    background-color: red;
-  }
+.copy__img:active ~ p {
+  display: block;
+  background-color: red;
+  position: absolute;
+  margin-left: 2rem;
 }
