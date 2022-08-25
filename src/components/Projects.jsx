@@ -2,9 +2,6 @@ import "./Projects.scss";
 import React, { useState } from "react";
 
 import ProjectCard from "../components/ProjectCard";
-import JourneyImage from "../assets/images/app-Journey.png";
-import DogPoolImage from "../assets/images/dogpool.png";
-import TrackImage from "../assets/images/track.png";
 import LeftArrow from "../assets/Icons/arrow-left.png";
 import RightArrow from "../assets/Icons/arrow-right.png";
 

@@ -31,7 +31,6 @@ const data = [
     info: "Dog pool, an application that allows your loved dog to be walked when you are too busy or sick. Dog pool lets you set up a distance on how far of a walk you are going on. The app finds dogs that need a walk within your walking distance for you to pick up and help out a friendly neighbor. This app allows you to explore new walking paths, lets you dog meet new friends and have your dog walked when you aren’t able to walk him.",
     stacks:
       "React.js, axios, redux, react-file-base64, Node, MySQL, Express, Google API",
-    moreInfo: "signup, or use a test account:  email:john Password:smith",
     github: "https://github.com/jimmykt/dog-pool",
     host: "https://journey-mern.netlify.app/",
     verticalImage: true,

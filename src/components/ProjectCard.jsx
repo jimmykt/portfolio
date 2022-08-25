@@ -27,7 +27,7 @@ function ProjectCard(props) {
         </div>
         <div className="card__face card__face--back">
           <div className="card__back-content">
-            <div className="card__back-img"></div>
+            {/* <div className="card__back-img"></div> */}
             <h2 className="card__back-name">{props.name}</h2>
             <p className="card__back-info">{props.info}</p>
             <p className="card__back-stacks">Stacks Used: {props.stacks}</p>

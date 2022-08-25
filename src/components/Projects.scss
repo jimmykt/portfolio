@@ -18,12 +18,19 @@
   &__arrow {
     max-width: 2rem;
     max-height: 2rem;
+    opacity: 0.3;
+
+    &:hover {
+      opacity: 1;
+    }
+
     &--right {
       margin-left: 0.25rem;
       @include desktop {
         margin-left: 1rem;
       }
     }
+
     &--left {
       margin-right: 0.25rem;
       @include desktop {
