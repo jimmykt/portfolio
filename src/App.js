@@ -8,8 +8,6 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Header />
-      <Header />
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/contact" component={ContactPage} />
@@ -19,4 +17,3 @@ function App() {
 }
 export default App;
 // test
-//testing login
