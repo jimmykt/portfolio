@@ -3,13 +3,14 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import Header from "./components/Header";
-import Header from "./components/Header";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Header />
+      <Header />
+
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/contact" component={ContactPage} />
